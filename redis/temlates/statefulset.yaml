@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
       - name: redis
-        image: {{ .Values.statefulset.image URL }} #sangala2025/redis:v1
+        image: {{ .Values.statefulset.image }} #sangala2025/redis:v1
         volumeMounts:
         - name: redis-data
           mountPath: /data
