@@ -1,6 +1,7 @@
 deployment:
   image: sangala2025/payment
   imageVersion: v1
+  targetPort: 8080
 hpa:
   maxReplicas: 10
   utilisation: 75
