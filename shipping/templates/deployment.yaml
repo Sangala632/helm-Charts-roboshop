@@ -32,12 +32,12 @@ spec:
         image: "{{ .Values.deployment.image }}:{{ .Values.deployment.imageVersion }}" #sangala2025/shipping:v1
         resources:
           requests:
-            cpu: "100m"
-            memory: "250Mi"
+            cpu: "150m"
+            memory: "256Mi"
 
           limits:
-            cpu: "150m"
-            memory: "500Mi"
+            cpu: "350m"
+            memory: "700Mi"
 
         envFrom:
         - configMapRef:
