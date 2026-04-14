@@ -1,0 +1,6 @@
+apiVersion: v2 #chat version 
+name: mongodb
+version: 1.0.0
+description: mongodb helm chat for roboshop
+type: database
+appVersion: "1.0.1" #application version
