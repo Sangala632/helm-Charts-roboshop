@@ -21,4 +21,4 @@ spec:
   ports:
   - protocol: TCP
     port: 6379
-    targetPort: 6379
+    targetPort: {{ .Values.service.targetPort }} #6379
